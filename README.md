@@ -9,3 +9,5 @@ No
 
 ## Do I even know Japanese
 いいえ
+
+Please give me some time while I reread all my lecture notes for that course I bombed that explained what a DFA was
