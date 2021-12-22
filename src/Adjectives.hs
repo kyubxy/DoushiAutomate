@@ -10,6 +10,8 @@ data Tense = NonPerfective | Perfective | Provisional | Gerund | Volitional | Pa
 generateAdjective :: Adjective -> Truth -> Tense -> String
 generateAdjective adj truth tense = (getStem adj) ++ (intrTruth truth) ++ (intrTense tense)
 
+-- TODO: this part is really messy
+
 -- | get the adjective stem
 getStem :: Adjective -> Stem
 getStem adj 
